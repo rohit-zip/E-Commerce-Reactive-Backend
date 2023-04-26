@@ -1,0 +1,20 @@
+server:
+  port: 7000
+
+spring:
+  data:
+    mongodb:
+      database: ecommerce
+      host: localhost
+      port: 27017
+
+
+accessTokenSecret : 12345
+refreshTokenSecret : 54321
+
+com:
+  example:
+    demo:
+      accessTokenExpirationMinutes : 1
+      refreshTokenExpirationDays : 30
+
